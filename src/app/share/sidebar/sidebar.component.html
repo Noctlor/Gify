@@ -1,0 +1,9 @@
+  <!-- side bard -->
+  <div class="bg-dark border-right p-3" id="sidebar">
+    <h3 class="text-light">Gifys</h3>
+    <hr class="text-white"/>
+    <div class="list-group list-reset">
+      <a href="#" class="list-group-item list-group-item-action" *ngFor="let histo of historial" (click)="buscar(histo)">{{histo | titlecase}}</a>
+    </div>
+</div>
+  <!-- sidebar -->
